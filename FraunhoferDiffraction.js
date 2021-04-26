@@ -7,8 +7,6 @@ import {
 } from "three";
 import { Canvas, useFrame } from "react-three-fiber";
 
-const isServer = typeof window === "undefined";
-
 export default function Waves(props) {
   const WaveMesh = () => {
     const position = useMemo(
