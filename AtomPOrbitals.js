@@ -1,4 +1,4 @@
-import React, { useRef, useMemo, useEffect, Suspense } from "react";
+import React, { useRef, useMemo } from "react";
 import {
   BufferGeometry,
   BufferAttribute,
