@@ -7,8 +7,8 @@ import {
 } from "three";
 import { Canvas, useFrame } from "react-three-fiber";
 
-export default function Waves(props) {
-  const WaveMesh = () => {
+export default function Diffraction(props) {
+  const Diffraction = () => {
     const position = useMemo(
       () =>
         new Float32Array([
@@ -114,7 +114,7 @@ export default function Waves(props) {
       onCreated={(state) => state.gl.setClearColor(0x666666)}
       updateDefaultCamera={false}
     >
-      <WaveMesh />
+      <Diffraction />
     </Canvas>
   );
 }
