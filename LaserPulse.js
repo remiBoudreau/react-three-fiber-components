@@ -7,8 +7,8 @@ import {
 } from "three";
 import { Canvas, useFrame } from "react-three-fiber";
 
-export default function Waves(props) {
-  const WaveMesh = () => {
+export default function LaserPulse(props) {
+  const LaserPulse = () => {
     const position = useMemo(
       () =>
         new Float32Array([
