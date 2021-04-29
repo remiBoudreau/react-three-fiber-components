@@ -8,7 +8,7 @@ import {
 import { Canvas, useFrame } from "react-three-fiber";
 
 export default function Atom(props) {
-  const AtomMesWaveh = () => {
+  const AtomMesh = () => {
     const position = useMemo(
       () =>
         new Float32Array([
