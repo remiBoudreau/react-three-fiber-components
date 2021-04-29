@@ -8,7 +8,7 @@ import {
 import { Canvas, useFrame } from "react-three-fiber";
 
 export default function LaserPulse(props) {
-  const LaserPulse = () => {
+  const LaserPulseMesh = () => {
     const position = useMemo(
       () =>
         new Float32Array([
@@ -124,7 +124,7 @@ export default function LaserPulse(props) {
       }}
       onCreated={(state) => state.gl.setClearColor(0x666666)}
     >
-      <WaveMesh />
+      <LaserPulseMesh />
     </Canvas>
   );
 }
