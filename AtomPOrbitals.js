@@ -8,7 +8,7 @@ import {
 import { Canvas, useFrame } from "react-three-fiber";
 
 export default function Atom(props) {
-  const WaveMesh = () => {
+  const AtomMesWaveh = () => {
     const position = useMemo(
       () =>
         new Float32Array([
@@ -144,7 +144,7 @@ export default function Atom(props) {
       }}      
       updateDefaultCamera={false}
     >
-      <WaveMesh />
+      <AtomMesh />
     </Canvas>
   );
 }
